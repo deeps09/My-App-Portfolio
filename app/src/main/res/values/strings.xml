@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Nanodegree Portfolio App</string>
+
+    <string name="lblPopularMovies">Popular Movies</string>
+    <string name="lblStockHawk">Stock Hawk</string>
+    <string name="lblBuildItBigger">Build It Bigger</string>
+    <string name="lblMakeYourAppMaterial">Make Your App Material</string>
+    <string name="lblGoUbiquitous">Go Ubiquitous</string>
+    <string name="lblCapstone">Capstone</string>
+</resources>
