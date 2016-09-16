@@ -1,63 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="66dp"
-    android:paddingRight="82dp"
-    android:paddingTop="32dp"
-    tools:context="com.nanodegree.myapps.nanodegreeportfolioapp.MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:fontFamily="sans-serif"
-        android:text="My Nanodegree Apps!"
-        android:textColor="@color/colorMagentaDark"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/btnPopularMovies"
-        style="@style/ButtonTheme"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/lblPopularMovies" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="66dp"
+        android:paddingRight="82dp"
+        android:paddingTop="32dp"
+        tools:context="com.nanodegree.myapps.myAppPortfolio.MainActivity">
 
-    <Button
-        android:id="@+id/btnStockHawk"
-        style="@style/ButtonTheme"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/lblStockHawk" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif"
+            android:text="My Nanodegree Apps!"
+            android:textColor="@color/colorMagentaDark"
+            android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btnBuildItBigger"
-        style="@style/ButtonTheme"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/lblBuildItBigger" />
+        <Button
+            android:id="@+id/btnPopularMovies"
+            style="@style/ButtonTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblPopularMovies" />
 
-    <Button
-        android:id="@+id/btnMakeYourAppMat"
-        style="@style/ButtonTheme"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/lblMakeYourAppMaterial" />
+        <Button
+            android:id="@+id/btnStockHawk"
+            style="@style/ButtonTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblStockHawk" />
 
-    <Button
-        android:id="@+id/btnGoUbiquitous"
-        style="@style/ButtonTheme"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/lblGoUbiquitous" />
+        <Button
+            android:id="@+id/btnBuildItBigger"
+            style="@style/ButtonTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblBuildItBigger" />
 
-    <Button
-        android:id="@+id/btnCapstone"
-        style="@style/ButtonTheme"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/lblCapstone" />
-</LinearLayout>
+        <Button
+            android:id="@+id/btnMakeYourAppMat"
+            style="@style/ButtonTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblMakeYourAppMaterial" />
+
+        <Button
+            android:id="@+id/btnGoUbiquitous"
+            style="@style/ButtonTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblGoUbiquitous" />
+
+        <Button
+            android:id="@+id/btnCapstone"
+            style="@style/ButtonTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblCapstone" />
+    </LinearLayout>
+</ScrollView>

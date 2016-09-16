@@ -1,4 +1,4 @@
-package com.nanodegree.myapps.nanodegreeportfolioapp;
+package com.nanodegree.myapps.myAppPortfolio;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
